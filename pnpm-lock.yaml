@@ -65,15 +65,6 @@ importers:
 
   libs/route-library:
     dependencies:
-      '@react-router/node':
-        specifier: ^7.1.5
-        version: 7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)
-      '@react-router/serve':
-        specifier: ^7.1.5
-        version: 7.1.5(react-router@7.1.5(react-dom@19.0.0(react@19.0.0))(react@19.0.0))(typescript@5.7.3)
-      isbot:
-        specifier: ^5.1.17
-        version: 5.1.22
       react:
         specifier: ^19.0.0
         version: 19.0.0

@@ -4,5 +4,5 @@ import { route } from '@react-router/dev/routes'
 // our test-app project's routes.ts. In a real world scenario, this route path would be
 // resolved more dynamically.
 export default [
-  route("library-route", "../../../libs/route-library/app/routes/library-route.tsx")
+  route("library-route", "../../../libs/route-library/library-route.jsx")
 ]
