@@ -6,7 +6,7 @@ This is a bug reproduction repo for [$ReactRouterIssue]().
 
 We're migrating an application to React Router 7's new framework features. 
 
-We've migrated from v6 to v7's library mode, and app currently uses [createBrowserRouter](https://api.reactrouter.com/v7/functions/react_router.createBrowserRouter.html) to set up React Router on the client. Our application routes are split up within in an [NX](https://nx.dev/) monorepo, and teams work on route groups in isolated projects. This allows us easily to split our build, typecheck, test, and other tasks across projects in order speed up our local dev experience and CI. Route groups are built, and then imported into our host application's build process as an npm package. For example: 
+We've migrated from v6 to v7's library mode, and our app currently uses [createBrowserRouter](https://api.reactrouter.com/v7/functions/react_router.createBrowserRouter.html) to set up React Router on the client. Our application routes are split up within in an [NX](https://nx.dev/) monorepo, and teams work on route groups in isolated projects. This allows us easily to split our build, typecheck, test, and other tasks across projects in order speed up our local dev experience and CI. Route groups are built, and then imported into our host application's build process as an npm package. For example: 
 
 ```ts
 import { teamARoutes } from 'team-a-routes'
