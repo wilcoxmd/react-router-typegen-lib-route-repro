@@ -34,7 +34,7 @@ The workspace contains one React Router 7 app (`apps/test-app`), and one library
 Clone this repo and install dependencies with [pnpm](https://pnpm.io/): 
 
 ```bash
-git clone URL-TODO react-router-typegen-lib-route-repro
+git clone https://github.com/wilcoxmd/react-router-typegen-lib-route-repro.git react-router-typegen-lib-route-repro
 cd react-router-typegen-lib-route-repro
 pnpm i
 ```
