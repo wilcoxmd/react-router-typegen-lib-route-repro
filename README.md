@@ -1,6 +1,6 @@
 # Typegen + Library Routes Reproduction
 
-This is a reproduction repo for [$ReactRouterIssue](). 
+This is a reproduction repo for [React Router issue #12993](https://github.com/remix-run/react-router/issues/12993).
 
 ## Context
 
