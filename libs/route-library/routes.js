@@ -1,8 +1,7 @@
-import { route } from '@react-router/dev/routes'
-
-// This is an artificial example that assumes knowledge of point to this route library from 
-// our test-app project's routes.ts. In a real world scenario, this route path would be
-// resolved more dynamically.
+// In a real world package, this route path would be
+// resolved more dynamically. For the sake of this example, we hardcode
+// our library route's `file` to be the relative path from `test-app`'s routes.ts to
+// the library's route module.
 export default [
-  route("library-route", "../../../libs/route-library/library-route.jsx")
+  { path: "library-route", file: "../../../libs/route-library/library-route.jsx" }
 ]
