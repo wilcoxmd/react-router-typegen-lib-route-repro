@@ -1,6 +1,6 @@
 # Typegen + Library Routes Reproduction
 
-This is a bug reproduction repo for [$ReactRouterIssue](). 
+This is a reproduction repo for [$ReactRouterIssue](). 
 
 ## Context
 
